@@ -65,7 +65,7 @@ dl {
   padding:0em 1em;
 }
 
-dd 
+dt
 {
   font-family:monospace;
   text-align:right;
@@ -74,12 +74,12 @@ dd
 }
 
 
-dt ul {
+dd ul {
   padding:0em;
   list-style: inside;
 }
 
-dt ul li {
+dd ul li {
   padding:.1em;
 }
 
