@@ -20,16 +20,6 @@ section:before {
   letter-spacing: .15em;
 }
 
-section
-{
-  page-break-inside: auto;
-}
-
-section
-{
-	page-break-before:auto;
-}
-
 section {
  
   border:1em outset black;
@@ -86,4 +76,8 @@ dd ul li {
   body {
     font-size:8pt;
   }
+}
+
+section, subsection {
+  page-break-inside: avoid;
 }
